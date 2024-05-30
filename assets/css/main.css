@@ -2715,7 +2715,7 @@ input, select, textarea {
 				flex-wrap: wrap;
         		box-sizing: border-box;
         		align-items: stretch;
-				gap:10px;
+				gap:50px;
 			}
 			.andy {
 					flex-grow: 1; /* default 0 */
