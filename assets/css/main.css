@@ -2602,10 +2602,10 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-image: url("../../images/bg2.jpg"), url("../../images/artarnsburger.jpg");
+		background-position: left;
+		background-repeat: repeat, no-repeat;
+		background-size: cover;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2708,6 +2708,23 @@ input, select, textarea {
 				margin-top: 0;
 				padding-top: 0;
 			}
+
+/* FELIX AND ANDY and VIBE WRITING SECTION */
+			.felix {
+				display: flex;
+				flex-wrap: wrap;
+        		box-sizing: border-box;
+        		align-items: stretch;
+				gap:10px;
+			}
+			.andy {
+					flex-grow: 1; /* default 0 */
+					width: 200px;
+				}
+
+			.andy img {
+				border-radius:10px;
+			}	  
 
 /* Poptrox */
 
